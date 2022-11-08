@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(181, 164, 179);
+}
+
+.container{
+  
+    height: 60px;
+    background-color: rgb(162, 3, 149);
+    padding: 0 40px;
+    color: white;
+    position: relative;
+    
+  
+
+}
+.logel{
+display: inline-block;
+font-weight: 1000;
+text-transform:uppercase;
+font-family:sans-serif ;
+letter-spacing: 1px;
+margin: 10px;
+
+}
+ul{
+    list-style-type: none;
+    position: absolute;
+    right: 300px;
+    margin: 13px;
+
+    
+    
+}
+li{
+    display: inline-block;
+    padding: 0 15px;
+}
+ul li a{
+    text-decoration: none;
+    display:block;
+    border: 1px solid rgb(186, 148, 197);
+    border-radius: 5px;
+    padding: 4px 7px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+
+
+}
+.items{
+    display: inline-block;
+  
+}
+a:hover{
+    background-color: rgb(185, 143, 166);
+}
